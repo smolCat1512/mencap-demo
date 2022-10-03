@@ -20,7 +20,6 @@ export const Aligner = styled("div")`
   width: 100%;
   height: 100%;
   padding: 0px 15%;
-  max-width: 1400px;
   ${mq[0]} {
     padding: 0 20px;
   }

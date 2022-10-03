@@ -9,7 +9,7 @@ export const HeroContainer = styled("div")`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: 650px;
+  max-height: 750px;
   position: relative;
   overflow: hidden;
   clear: both;
