@@ -37,7 +37,6 @@ export const Header: FC = () => {
                     </SearchContainer>
                 </NavMenuInnerContainer>
             </HeaderNavMenu>
-            <Hero />
         </>
     );
 };

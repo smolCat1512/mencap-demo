@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { HeroContainer, HeroSubtitle, HeroText, HeroTextContainer, HeroTitle } from "../Header/Header.styles";
+import { HeroContainer, HeroSubtitle, HeroText, HeroTextContainer, HeroTitle } from "../Hero/Hero.styles";
 import Image from "../../assets/HeroImage.jpeg";
 
 export const Hero: FC = () => {

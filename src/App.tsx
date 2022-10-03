@@ -1,12 +1,12 @@
 import './App.css';
 import { Header } from './components/Header/Header';
-import { HeroContainer } from './components/Header/Header.styles';
+import { Hero } from './components/Hero/Hero';
 
 function App() {
   return (
     <>
       <Header />
-      <HeroContainer />
+      <Hero />
     </>
   );
 }
