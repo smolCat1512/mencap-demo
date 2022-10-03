@@ -2,7 +2,6 @@ import { FC } from "react";
 import { Logo } from "../../assets/Logo";
 import { OnlineCommunity } from "../../assets/OnlineCommunity";
 import { SearchIcon } from "../../assets/SearchIcon";
-import { Hero } from "../Hero/Hero";
 import { Aligner, DonateButton, DonateButtonText, HeaderContainer, HeaderEndContainer, HeaderNavMenu, HeaderNavMenuItem, NavMenuInnerContainer, OnlineCommunityContainer, OnlineCommunityText, SearchContainer } from "./Header.styles";
 
 export const Header: FC = () => {
