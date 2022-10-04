@@ -19,7 +19,7 @@ export const Chat: FC = () => {
 
 	return (
 		<CallContainer>
-			{managerSetup ? <ChatManager manager={managerSetup} /> : <Flex vAlignContent="center" hAlignContent="center" height="100%"><Spinner size="sizeIcon80" decorative={false} title="Loading" /></Flex>}
+			<ChatManager />
 		</CallContainer>
 	);
 };

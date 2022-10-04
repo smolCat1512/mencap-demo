@@ -5,7 +5,7 @@ const breakpoints = [576, 768, 992, 1200, 1400];
 const mq = breakpoints.map((bp) => `@media (max-width: ${bp}px)`);
 
 export const ParentContainer = styled("div")`
-  background-color: #f4f5f7;
+  background-color: #970361;
   border-radius: 30px 30px;
   bottom: 20px;
   right: 5px;

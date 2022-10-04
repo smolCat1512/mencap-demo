@@ -1,10 +1,11 @@
-import {  FC, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { ButtonsContainer, Description, HeaderButtonsContainer, HeaderContainer, HeaderLogo, Image, ParentContainer, WidgetButton } from "../../assets/index.styles";
 import { ViewRender } from "./RenderFunction";
 import WidgetLtrGif from "../../assets/animated-widget-ltr.gif";
 import WidgetUpGif from "../../assets/animated-widget.gif";
 import { HeaderButtonComp } from "./HeaderButtonContainer";
 import { NavButtonComp } from "./NavButtonContainer";
+import logo from "../../assets/logo.png";
 
 export const RaceConnect: FC = () => {
 
@@ -35,7 +36,7 @@ export const RaceConnect: FC = () => {
 			{parentContainer ? (
 				<ParentContainer>
 					<HeaderContainer>
-						<HeaderLogo src="https://cdn.ciptex.com/ciptex-assets/logos/ciptex-dark-logo.png" />
+						<HeaderLogo src={logo} />
 						<HeaderButtonsContainer>
 							{!buttonContainer && (
 								<HeaderButtonComp icon="back" setShowWidget={setShowWidget} setButtonContainer={setButtonContainer} setParentContainer={setParentContainer} setContainerName={setContainerName} />
@@ -50,7 +51,7 @@ export const RaceConnect: FC = () => {
 								Choose your preferred communication channels to connect with
 								Ciptex.
 							</Description>
-							<NavButtonComp setContainerName={setContainerName} setButtonContainer={setButtonContainer}  />
+							<NavButtonComp setContainerName={setContainerName} setButtonContainer={setButtonContainer} />
 						</ButtonsContainer>
 					)}
 				</ParentContainer>
