@@ -20,11 +20,11 @@ export const Call: FC = () => {
 				<LabelWithMargin>Click to call via your phone.</LabelWithMargin>
 				<Button variant="secondary" as="a" href={`tel:${config?.phoneNumer}`}>
 					<Icon icon="call" />
-					+44 345 8800 808
+					+447380328826
 				</Button>
 				<SeperatorParagraph />
 				<LabelWithMargin>
-					Click to call via WebRTC. (WiFi Call)
+					Click to call over the internet.
 				</LabelWithMargin>
 				<CallButton />
 			</CallButtonsContainer>
